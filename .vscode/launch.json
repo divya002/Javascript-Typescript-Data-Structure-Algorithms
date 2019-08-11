@@ -14,7 +14,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/longestSubString.js"
+            "program": "${workspaceFolder}/Recursion/nestedEvenSum.js"
         }
     ]
 }
