@@ -14,7 +14,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/Recursion/nestedEvenSum.js"
+            "program": "${workspaceFolder}/SinglyLinkedList/singlelinkedlist.js"
         }
     ]
 }
