@@ -14,7 +14,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/BinarySearchTree/BST.js"
+            "program": "${workspaceFolder}/BinaryHeap/maxBinaryHeap.js"
         }
     ]
 }
