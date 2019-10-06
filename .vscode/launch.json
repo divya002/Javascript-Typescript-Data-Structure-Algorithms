@@ -14,7 +14,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/DijiktraAlgorithm/dijiktraSorttestPath.js"
+            "program": "${workspaceFolder}/KruskalAlgorithm/minSpanningTree.js"
         }
     ]
 }
