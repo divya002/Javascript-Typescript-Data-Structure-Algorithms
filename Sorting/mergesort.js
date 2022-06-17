@@ -8,7 +8,7 @@ function mergesort(left,right,arr){
 //return arr;
 }
 function merge(left,mid,right,arr){
-    let leftASize=(mid-left+1);
+    let leftASize=(mid-left+1);    
     let rightASize=(right-mid);
     let leftA=[];
     let rightA=[];
