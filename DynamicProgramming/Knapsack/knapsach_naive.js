@@ -1,7 +1,7 @@
 function knapsack(W,weight,value,n,memo){
 if(n==0 || W==0)
 return 0;
-else  if(memo[n-1][W])
+else  if(memo[n][W])
 return memo[n][W];
 else if(weight[n-1]>W){
     memo[n][W]=knapsack(W,weight,value,n-1);
@@ -20,4 +20,4 @@ for(let i=0;i<memo.length;i++){
     memo[i]=new Array(W+1).fill(null);
 }
 let result=knapsack(W,wt,val,val.length,memo);
-console.log(memo);
+console.log(result);
